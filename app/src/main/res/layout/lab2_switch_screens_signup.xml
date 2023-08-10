@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Sign Up Form"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:autofillHints="username"
+        android:hint="Username"
+        android:inputType="textAutoComplete"
+        android:paddingVertical="50px"
+        android:textColor="#80000000" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUsername"
+        android:autofillHints="password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingVertical="50px"
+        android:textColor="#80000000" />
+
+    <EditText
+        android:id="@+id/etPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:autofillHints="password"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingVertical="50px"
+        android:textColor="#80000000" />
+
+    <TextView
+        android:id="@+id/tvLoginForm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/etPassword2"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Had account? Log in" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLoginForm"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="-----Or-----"
+        android:textColor="#7E000000" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:background="#D8D8D8"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black" />
+
+</RelativeLayout>

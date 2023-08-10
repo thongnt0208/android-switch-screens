@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etFirstNum" type="id" />
+    <item name="tvSign" type="id" />
+    <item name="etSecondNum" type="id" />
+    <item name="tvEqualSign" type="id" />
+    <item name="tvResultLabel" type="id" />
+    <item name="tvResult" type="id" />
+    <item name="btnMinus" type="id" />
+    <item name="btnMultiple" type="id" />
+    <item name="btnAdd" type="id" />
+    <item name="divider" type="id" />
+    <item name="btnDivide" type="id" />
+    <item name="group2" type="id" />
+    <item name="etUsername" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="tvLoginForm" type="id" />
+    <item name="buttonSignUp" type="id" />
+    <item name="etPassword2" type="id" />
+</resources>
